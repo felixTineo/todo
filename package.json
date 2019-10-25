@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "tutorial react redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/felixTineo/todo.git"
+  },
+  "keywords": [
+    "tutorial",
+    "react",
+    "redux",
+    "parcel"
+  ],
+  "author": "felix tineo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixTineo/todo/issues"
+  },
+  "homepage": "https://github.com/felixTineo/todo#readme"
+}
