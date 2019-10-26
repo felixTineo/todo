@@ -6,3 +6,10 @@ body{
   padding: 0;
   margin: 0;
 }
+button:focus{
+  outline:none;
+}
+button:hover{
+  cursor: pointer;
+  transition: 250ms ease;
+}
