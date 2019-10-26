@@ -4,9 +4,8 @@ export const font = {
 }
 
 export const color = {
-  prim: '#d3515b',
+  prim: '#c03e55',
   sec: '#ae3d56',
   tri: '#e16363',
   cua: '#ffd692',
-  quin: '#c03e55',
 }
