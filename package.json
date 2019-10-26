@@ -4,7 +4,9 @@
   "description": "tutorial react redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development parcel src/index.html",
+    "build": "NODE_ENV=production parcel build dist/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/felixTineo/todo/issues"
   },
-  "homepage": "https://github.com/felixTineo/todo#readme"
+  "homepage": "https://github.com/felixTineo/todo#readme",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-jsx": "^3.2.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
 }
